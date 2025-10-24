@@ -2,10 +2,11 @@
 layout: default
 ---
 
-# ¡Bienvenido! Soy Jo
+# ¡Hola! Soy Jo
 
-Soy un desarrollador web con experiencia en HTML, CSS, JavaScript y Bootstrap.
+Soy una **desarrolladora Full-Stack Java Jr.** con conocimientos en herramientas y lenguajes de programación como JavaScript, HTML, CSS, Python, Java, MySQL, entre otros.
 
-[Imagen de tu foto de perfil]
+Mi pasión es construir aplicaciones web eficientes y escalables. Te invito a conocer más sobre mi trabajo.
 
-¡Mira mis proyectos!
+[Ver mi portafolio](/portafolio)
+[Contactarme](/contacto)
