@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# ¡Hola! Soy Jo
+# Hola, Soy Joana Barbosa Gómez
 
 Soy una **desarrolladora Full-Stack Java Jr.** con conocimientos en herramientas y lenguajes de programación como JavaScript, HTML, CSS, Python, Java, MySQL, entre otros.
 
