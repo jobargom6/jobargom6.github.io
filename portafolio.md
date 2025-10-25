@@ -1,27 +1,22 @@
 ---
 layout: default
-title: Portafolio
+title: "Portafolio"
 ---
 
-## Portafolio de Proyectos
+<section class="container py-5">
+  <h2 class="text-center mb-5">Proyectos destacados</h2>
 
----
-
-### 1. API de Los Simpsons
-* **Descripción:** Una página web que consume y muestra datos de "The Simpsons API". Los usuarios pueden ver personajes y frases célebres.
-* **Tecnologías:** HTML, CSS, JavaScript (Fetch API).
-* **Enlaces:** `[Ver proyecto en vivo](TU_URL_AQUI)` | `[Ver código en GitHub](TU_URL_DE_GITHUB)`
-
----
-
-### 2. Página de blog sobre GOT
-* **Descripción:** Blog que presenta información y curiosidades sobre la serie game of trhones.
-* **Tecnologías:** HTML, CSS (Animaciones).
-* **Enlaces:** `[Ver proyecto en vivo](TU_URL_AQUI)` | `[Ver código en GitHub](TU_URL_DE_GITHUB)`
-
----
-
-### 3. Landing Page (Deportes Acuáticos)
-* **Descripción:** Landing page interactiva para una tienda de e-commerce, creada como parte de un equipo de 4 personas.
-* **Tecnologías:** HTML, CSS, Bootstrap, Javascript.
-* **Enlaces:** `[Ver proyecto en vivo](TU_URL_AQUI)` | `[Ver código en GitHub](TU_URL_DE_GITHUB)`
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="/assets/img/proyecto1.jpg" class="card-img-top" alt="Woof & BARF">
+        <div class="card-body">
+          <h5 class="card-title">Woof & BARF</h5>
+          <p class="card-text">E-commerce para alimentos naturales y snacks saludables para perros.</p>
+          <p><strong>Rol:</strong> Front-End (HTML, CSS, JS), bases de datos</p>
+          <a href="#" class="btn btn-outline-primary">Ver proyecto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+# --- Archivos y carpetas que Jekyll genera automáticamente ---
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# --- Dependencias de Ruby ---
+Gemfile.lock
+vendor/
+
+# --- Archivos del sistema (Windows, macOS, editores, etc.) ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# --- Archivos de VS Code u otros editores ---
+.vscode/
+.idea/
+
+# --- Archivos de respaldo o temporales ---
+*~
+*.bak

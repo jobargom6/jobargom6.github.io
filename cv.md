@@ -1,27 +1,26 @@
 ---
 layout: default
-title: CV
+title: "Currículum"
 ---
 
-## Currículum
+<section class="container py-5">
+  <h2 class="text-center mb-5">Currículum</h2>
 
-[Descargar mi CV en PDF](ENLACE_A_TU_CV.PDF)
-
----
-
-### Experiencia Profesional
-
-**E-commerce** | [Woof & Barf] | [Septiembre 2025- Diciembrel 2025]
-* Desarrollé y colaboré en la elaboración de una Plataforma e-commerce implementando funcionalidades con Java,
-Python y MySQL en el back-end creando una interfaz responsiva con HTML, CSS y JavaScript.
-* Supervisé y colaboré en la integración del front-end y el back-end de una plataforma e-commerce con control de
-versions en Git y trabajo colavorativo en GitHub.
-
-
----
-
-### Educación
-
-**Bootcamp Full-Stack Java Jr** | [Generation MX] | [2025]
-
-**Licenciatura en Biomedicina** | [BUAP] | [2022]
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Experiencia</h4>
+      <ul>
+        <li><strong>Proyecto Woof & BARF</strong> – Desarrolladora Front-End y bases de datos (2025)</li>
+        <li><strong>Gestor de tareas</strong> – Desarrolladora Full-Stack (2024)</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h4>Educación</h4>
+      <ul>
+        <li><strong>Licenciatura en Biomedicina</strong> – BUAP (2022)</li>
+        <li><strong>Formación Full-Stack Java Jr.</strong> – Generation MX (2025)</li>
+      </ul>
+      <a href="/assets/cv_joana.pdf" class="btn btn-outline-dark mt-3" download><i class="bi bi-download"></i> Descargar CV</a>
+    </div>
+  </div>
+</section>

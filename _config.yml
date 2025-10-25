@@ -1,6 +1,9 @@
-# Elige un tema 
-theme: jekyll-theme-minimal
-
-# Información de tu sitio
-title: El Portafolio de Joana
-description: Desarrollador Web especializado en...
+title: "Joana | Portafolio"
+description: "Desarrolladora Full-Stack Java Jr."
+baseurl: ""
+url: "https://jobargom6.github.io"
+#theme: none
+markdown: kramdown
+collections:
+  posts:
+    output: true
