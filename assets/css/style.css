@@ -1,0 +1,10 @@
+/* Un estilo simple para empezar */
+body {
+  background-color: #f4f4f4; /* Un gris muy claro de fondo */
+  color: #333; /* Color de texto principal */
+}
+
+/* Cambiar el color de los encabezados */
+h1, h2, h3 {
+  color: #0056b3; /* Un azul oscuro */
+}
