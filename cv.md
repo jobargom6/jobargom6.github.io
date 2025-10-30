@@ -4,23 +4,68 @@ title: "Currículum"
 ---
 
 <section class="container py-5">
-  <h2 class="text-center mb-5">Currículum</h2>
+  <h2 class="text-center mb-5 display-4 fw-bold" data-aos="fade-up">Currículum</h2>
 
   <div class="row">
-    <div class="col-md-6">
-      <h4>Experiencia</h4>
-      <ul>
-        <li><strong>Proyecto Woof & BARF</strong> – Desarrolladora Front-End y bases de datos (2025)</li>
-        <li><strong>Gestor de tareas</strong> – Desarrolladora Full-Stack (2024)</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h4>Educación</h4>
-      <ul>
-        <li><strong>Licenciatura en Biomedicina</strong> – BUAP (2022)</li>
-        <li><strong>Formación Full-Stack Java Jr.</strong> – Generation MX (2025)</li>
-      </ul>
-      <a href="/assets/cv_joana.pdf" class="btn btn-outline-dark mt-3" download><i class="bi bi-download"></i> Descargar CV</a>
+
+    <div class="col-lg-6" data-aos="fade-right">
+      <h3 class="mb-4"><i class="fas fa-briefcase text-primary me-2"></i>Experiencia</h3>
+
+      <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Proyecto Woof & BARF</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Desarrolladora Front-End y Bases de Datos (2025)</h6>
+          </div>
+      </div>
+
+      <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Hackathon | Landing Page HydroBoost</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Desarrolladora (Octubre 2025)</h6>
+          <p class="card-text">
+            Colaboré en el desarrollo de una landing page para una tienda deportiva utilizando HTML, CSS, Bootstrap y Javascript.
+          </p>
+        </div>
+      </div>
+      
+      </div>
+
+    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+      <h3 class="mb-4"><i class="fas fa-graduation-cap text-success me-2"></i>Educación</h3>
+
+      <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Formación Full-Stack Java Jr.</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Generation MX (2025)</h6>
+        </div>
+      </div>
+      
+      <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Licenciatura en Biomedicina</h5>
+          <h6 class="card-subtitle mb-2 text-muted">BUAP (2022)</h6>
+        </div>
+      </div>
+      
+      <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Diplomados en Análisis de Datos</h5>
+          <h6 class="card-subtitle mb-2 text-muted">SciData Math (2022)</h6>
+           <p class="card-text mb-0">
+             <small>
+               - Programación en R para análisis de datos<br>
+               - Inferencia estadística para análisis de datos
+             </small>
+           </p>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <a href="/assets/JOANA BARBOSA GOMEZ-4.pdf" class="btn btn-outline-dark btn-lg" download>
+          <i class="fas fa-download me-2"></i> Descargar CV
+        </a>
+      </div>
+
     </div>
   </div>
 </section>

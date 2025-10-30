@@ -19,3 +19,50 @@ section {
 .card:hover {
   transform: translateY(-5px);
 }
+
+/* Index hero */
+
+.hero-inicio {
+  /* 1. Pones el color dominante PRIMERO */
+  background-color: #0f017b; /* <- Cambia esto por tu color dominante */
+  /* Aquí pones todos los estilos del fondo */
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/Hero.jpg');
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  padding: 120px 20px;
+}
+
+/* --- Sección "About me" --- */
+
+/* 1. Color personalizado para el ícono de Bootstrap */
+/* (Bootstrap no tiene una clase "text-purple") */
+.text-purple {
+  color: #7952B3; /* Este es el color oficial de Bootstrap */
+}
+
+/* 2. (Opcional) Mover el estilo de tu imagen del HTML al CSS */
+/* Puedes reemplazar el 'style="..."' de tu <img> 
+   por una clase 'profile-img' */
+.profile-img {
+  max-width: 300px;
+  height: auto;
+}
+
+/* 3. (Opcional) Efecto sutil al pasar el mouse sobre las cards */
+.card:hover {
+  transform: translateY(-5px); /* Mueve la card 5px hacia arriba */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; /* Sombra más grande */
+}
+
+/* Color personalizado para el badge de Bootstrap */
+.bg-purple {
+  color: #fff; /* Texto en color blanco */
+  background-color: #7952B3; /* Este es el color oficial de Bootstrap */
+}
