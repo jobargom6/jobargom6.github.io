@@ -28,7 +28,7 @@ section {
   /* Aquí pones todos los estilos del fondo */
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('/assets/Hero.jpg');
+    url('/assets/hero2.jpg');
 
   background-size: cover;
   background-position: center center;
@@ -54,15 +54,29 @@ section {
   height: auto;
 }
 
-/* 3. (Opcional) Efecto sutil al pasar el mouse sobre las cards */
-.card:hover {
-  transform: translateY(-5px); /* Mueve la card 5px hacia arriba */
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; /* Sombra más grande */
-}
-
 /* Color personalizado para el badge de Bootstrap */
 .bg-purple {
   color: #fff; /* Texto en color blanco */
   background-color: #7952B3; /* Este es el color oficial de Bootstrap */
+}
+
+/* Estilo para las tarjetas de Acerca de Mí */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Bordes más redondeados */
+    background-color: #ffffff;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px); /* La tarjeta "flota" hacia arriba */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important; /* La sombra crece */
+    border-bottom: 4px solid #0d6efd; /* Un detalle de color abajo al pasar el mouse */
+}
+
+/* Ajuste opcional para la imagen de perfil */
+.profile-img {
+    object-fit: cover;
+    /* Asegúrate de que tu imagen sea cuadrada o esto la recortará en círculo */
+    width: 300px; 
+    height: 300px;
 }

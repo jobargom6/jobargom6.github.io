@@ -17,3 +17,17 @@ title: "Inicio"
     <a href="/portafolio" class="btn btn-light btn-lg mt-3">Ver mis proyectos</a>
   </div>
 </section>
+
+<hr>
+{% include cont-about.html %}
+
+<div class="text-center mt-4">
+    <a href="/cv" class="btn btn-outline-primary">Ir a mi CV</a>
+</div>
+
+<hr>
+{% include proyectos.html %}
+
+<div class="text-center mt-4">
+    <a href="/portafolio" class="btn btn-outline-primary">Ir a mis proyectos</a>
+</div>
